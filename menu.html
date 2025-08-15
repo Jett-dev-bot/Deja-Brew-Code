@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Deja Brew</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff1d6d2;
+    }
+    header {
+    font-weight: bold;
+    background-color: #2a3d2f;
+    color: rgb(231, 220, 182);
+    padding: 10px 0;
+    text-align: center;
+    }
+
+    nav {
+    display: flex;
+    justify-content: center;
+    background-color: #7a6948;
+}
+nav a {
+    color: white;
+    padding: 15px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ada087d2;
+}
+
+nav a.active {
+    background-color:  #463a24; /* Make it different from hover */
+    font-weight: bold;
+}
+
+    h1 {
+      margin: 0;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .menu-item {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .menu-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: fill;
+      background-color: #d4c8b1;
+    }
+    .menu-item h2 {
+      margin: 10px;
+      font-size: 1.5em;
+      color: #6f4e37;
+    }
+    .menu-item p {
+      margin: 10px;
+      font-size: 1em;
+      color: #333;
+    }
+
+    .menu-item:hover {
+            transform: scale(1.05);
+        }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #6f4e37;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .category{
+        padding-top: 14px;
+        padding-left: 50px;
+    }
+    
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Deja Brew Menu</h1>
+    <p>"A sip of nostalgia, a taste of perfection"</p>
+  </header>
+  <nav class="nav-bar">
+    <a href="home.html">Home</a>
+    <a class="active" href="menu.html">Menu</a>
+    <a href="location.html">Location</a>
+    <a href="services.html">Services</a>
+    <a href="aboutus.html">About Us</a>
+
+</nav>
+    <div>
+        <h1 class="category"><u><b>Iced Coffee</b></u></h1>
+    </div>
+
+
+  <section class="menu">
+    <!-- Menu Item 1 -->
+    <div class="menu-item">
+      <img src="Images/Your paragraph text (4).png" alt="Coffee Placeholder">
+      <h2>Espresso</h2>
+      <p>Rich and bold, a classic shot of espresso for a true coffee lover.</p>
+    </div>
+
+    <!-- Menu Item 2 -->
+    <div class="menu-item">
+      <img src="Images/Your paragraph text (3).png" alt="Latte Placeholder">
+      <h2>Caffè Latte</h2>
+      <p>Smooth steamed milk blended with our signature espresso.</p>
+    </div>
+
+    <!-- Menu Item 3 -->
+    <div class="menu-item">
+      <img src="Images/Your paragraph text (2).png" alt="Cappuccino Placeholder">
+      <h2>Cappuccino</h2>
+      <p>A delightful balance of espresso, steamed milk, and foam.</p>
+    </div>
+
+    <!-- Menu Item 4 -->
+    <div class="menu-item">
+      <img src="Images/Your paragraph text (1).png" alt="Mocha Placeholder">
+      <h2>Mocha</h2>
+      <p>Decadent chocolate meets rich espresso and steamed milk.</p>
+    </div>
+        
+    <!-- Menu Item 5 -->
+    <div class="menu-item">
+        <img src="Images/1.png" alt="Mocha Placeholder">
+        <h2>Mocha</h2>
+        <p>Decadent chocolate meets rich espresso and steamed milk.</p>
+      </div>
+
+    <!-- Menu Item 4 -->
+    <div class="menu-item">
+        <img src="Images/2.png" alt="Mocha Placeholder">
+        <h2>Mocha</h2>
+        <p>Decadent chocolate meets rich espresso and steamed milk.</p>
+      </div>
+
+      <!-- Menu Item 6 -->
+    <div class="menu-item">
+        <img src="Images/3.png" alt="Mocha Placeholder">
+        <h2>Mocha</h2>
+        <p>Decadent chocolate meets rich espresso and steamed milk.</p>
+      </div>
+
+      <!-- Menu Item 4 -->
+    <div class="menu-item">
+        <img src="Images/4.png" alt="Mocha Placeholder">
+        <h2>Mocha</h2>
+        <p>Decadent chocolate meets rich espresso and steamed milk.</p>
+      </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Deja Brew. All rights reserved.</p>
+  </footer>
+</body>
+</html>

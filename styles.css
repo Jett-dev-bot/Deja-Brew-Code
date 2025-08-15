@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+body {
+    font-family: "Monsterrat":sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6d6ab;
+    
+}
+header {
+    font-weight: bold;
+    background-color: #2a3d2f;
+    color: rgb(231, 220, 182);
+    padding: 10px 0;
+    text-align: center;
+}
+div img {
+    border-radius: 0px;
+    height: 500px;
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #7a6948;
+}
+nav a {
+    color: white;
+    padding: 15px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+header input{
+    margin-right: 30px;
+    border-radius: 15px;
+    padding: 7px 15px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    
+
+}
+nav a:hover {
+    background-color: #555;
+}
+
+nav a.active {
+    background-color: #351414; /* Make it different from hover */
+    font-weight: bold;
+}
+section {
+    padding: 50px;
+    background-color: white;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.coffee{
+    display:inline-block; 
+    text-align:center;
+    width:100%;
+    height: 80pt;
+    border: 1px solid black;
+}
+
+div img {
+    border-radius: 50px;
+    margin:1px;
+    border: 1px solid gray;
+    display:inline-block;  
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row .column{
+    padding: 10px 20px;
+    flex: 33.33%;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  
+div, iframe {
+    border-radius: 15px;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.image-container{
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.image-container div {
+  
+}
+
+
+/* Hero Section (Coffee Shop Theme) */
+.hero {
+    position: relative;
+    background-image: url('coffee-shop-interior.jpg'); /* Replace with an image of your coffee shop */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.cta-btn {
+    background-color: #815f48;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #441d02;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+.about img {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.about div {
+    flex: 1;
+}
+
+.about h3 {
+    margin-top: 0;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("Blythes-coffee-culture.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  
+    /* Full height */
+    height: 100%;
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 140px;
+    text-align: center;
+  }
